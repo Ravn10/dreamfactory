@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dreamfactory *.css
+recursive-include dreamfactory *.csv
+recursive-include dreamfactory *.html
+recursive-include dreamfactory *.ico
+recursive-include dreamfactory *.js
+recursive-include dreamfactory *.json
+recursive-include dreamfactory *.md
+recursive-include dreamfactory *.png
+recursive-include dreamfactory *.py
+recursive-include dreamfactory *.svg
+recursive-include dreamfactory *.txt
+recursive-exclude dreamfactory *.pyc
